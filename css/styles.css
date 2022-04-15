@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital@0;1&family=Roboto&display=swap');
+
+
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 62.5%;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+   /* border: solid blue 1px;*/
+
+}
+
+
+
+
+header section {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 6vw;
+
+}
+
+header section div.hamb {
+
+    display: none;
+}
+
+header section nav.menu {
+
+    display: flex;
+    flex-direction: row;
+}
+
+header section nav li {
+
+
+    list-style: none;
+    margin: 1vw;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+
+}
+
+header section nav li a {
+
+    text-decoration: none;
+    color: #242E52
+}
+
+button.getStarted {
+
+    background-color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+
+}
+
+button.getStarted:hover {
+
+    background-color: #F3603B;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+
+}
+
+
+
+
+
+
+main section.home {
+    display: flex;
+    flex-direction: row;
+    margin: 6vw;
+    align-items: center;
+
+}
+
+
+
+main section.home div.ladoIzq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45vw;
+    justify-content: space-evenly;
+
+}
+
+main section.home div.ladoIzq h1 {
+
+    font-weight: 700;
+    color: #232C50;
+    font-size: 5.8rem;
+    margin-bottom: 6vh;
+
+
+}
+
+section.home div.ladoIzq p {
+
+    font-weight: 600;
+    color: black;
+    font-size: 1.8rem;
+    width: 75%;
+    margin-bottom: 6vh;
+}
+
+
+section.home img {
+
+    width: 55vw;
+}
+
+main section.nosotros {
+    display: flex;
+    flex-direction: row;
+    margin: 6vw;
+}
+
+main section.nosotros div.sec1 {
+    align-items: flex-start;
+    width: 45vw;
+
+}
+
+
+main section.nosotros div.sec1 h2 {
+
+    color: #232851;
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin-bottom: 5vh;
+
+}
+
+main section.nosotros div.sec1 p {
+
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 65%;
+}
+
+main section.nosotros div.sec2 {
+
+    width: 55vw;
+}
+
+
+
+main section.nosotros div.sec2 article.items {
+
+    margin-bottom: 1vh;
+    align-items: center;
+    display: flex;
+    margin-left: 2vw;
+
+
+
+}
+
+main section.nosotros div.sec2 article.items h3 {
+
+    font-size: 1.6rem;
+    font-weight: 700;
+
+}
+
+main section.nosotros div.sec2 p {
+
+    margin-left: 8.5vw;
+    letter-spacing: -0, 05px;
+    color: #B3B2B7;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 25px;
+    width: 33vw;
+    margin-bottom: 5vh;
+
+}
+
+main section.nosotros div.sec2 button.numero {
+
+    background-color: #F3603B;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    width: 4.5vw;
+    height: 7vh;
+    margin-right: 2vw;
+    border: none;
+
+}
+
+main section.testimonios {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25vh;
+
+}
+
+main section.testimonios h3 {
+
+    font-size: 3.9rem;
+    color: #242E53;
+    font-weight: 700;
+    margin-bottom: 15vh;
+
+}
+
+
+main section.testimonios div.anashim {
+
+    display: flex;
+    width: 90%;
+    margin-bottom: 13vh;
+
+}
+
+
+
+
+main section.testimonios div.anashim .anisha {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
+}
+
+main section.testimonios div.anashim .anisha span {
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #3F4868;
+    margin: 2vw;
+}
+
+main section.testimonios div.anashim .anisha p {
+
+    color: #B9B9C1;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+
+
+
+}
+
+main section.testimonios div.anashim .ali {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
+
+}
+
+
+
+main section.testimonios div.anashim .ali p {
+
+    color: #B9B9C1;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+
+
+}
+
+main section.testimonios div.anashim .ali span {
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #3F4868;
+    margin: 2vw;
+}
+
+footer section.naranja {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3613C;
+    height: 40vh;
+
+
+}
+
+
+button.getStarted2 {
+
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    color: #F3603B;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    margin-right: 7vw;
+
+}
+
+footer section.naranja h3 {
+
+    color: white;
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: -0.005rem;
+    width: 40%;
+    margin-left: 5.5vw;
+
+
+}
+
+footer section.negro {
+
+    display: flex;
+    background-color: black;
+    height: 45vh;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer section.negro div.logoRedes {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+footer section.negro div.logoRedes div.redes img {
+
+    margin: 4px;
+}
+
+
+footer section.negro div.links {
+
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+footer section.negro div.links a {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+
+
+}
+
+footer section.negro div.formulario {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    align-items: center;
+}
+
+
+
+footer section.negro div.formulario input {
+
+    width: 15vw;
+    border-radius: 30px;
+    height: 6vh;
+    color: #A0A0A0;
+}
+
+
+
+
+footer section.negro div.formulario button.go {
+
+    background-color: #F3603B;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 4vw;
+    height: 5vh;
+    margin: 0vw 1vw;
+    border: none;
+}
+
+
+footer section.negro div.formulario p {
+
+    color: #8C8C94;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+footer>p {
+    display: none;
+}
+@media (max-width:376px) {
+    html {
+        font-size: 40%;
+    }
+
+    header nav li {
+        display: none;
+    }
+
+    header button {
+
+        display: none;
+    }
+
+    header section div.hamburguesa {
+
+        display: block;
+
+    }
+
+    main section.home {
+
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+
+
+    main section.home div.homeIzq {
+
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    main section.home img {
+        width: 95%;
+    }
+
+    main section.home div.homeIzq p {
+        width: 90%;
+
+
+
+    }
+
+    main section.testimonios div.anashim .anisha {
+        display: none;
+    }
+
+
+    footer section.naranja {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer section.naranja h3 {
+        width: 100%;
+    }
+
+    footer section.negro {
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+    }
+
+    footer .formulario p {
+        
+
+        background-color: chocolate;
+        display: block;
+    }
+    
+    footer section.negro div.links p {
+        display: none;
+    }
+}
